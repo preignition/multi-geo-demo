@@ -2,6 +2,8 @@ import { LitElement, html, css } from 'lit-element';
 import './01-basic/basic-demos.js';
 import './02-charts/charts-demos.js';
 // import './03-advanced/advanced-demos.js';
+
+import '@preignition/multi-chart';
 import '@polymer/paper-card';
 
 import '@vaadin/vaadin-tabs';
