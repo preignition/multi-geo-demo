@@ -15,21 +15,22 @@
     "postpublish": "git push && git push --tags"
   },
   "dependencies": {
-    "@preignition/multi-chart": "file:../multi-chart",
     "@morbidick/lit-element-notify": "*",
     "@polymer/paper-card": "^3.0.1",
+    "@preignition/multi-chart": "file:../multi-chart",
     "@vaadin/router": "^1.2.0",
     "@vaadin/vaadin-tabs": "^2.1.2",
     "@webcomponents/webcomponentsjs": "^2.2.7",
-    "lit-element": "^2.1.0",
     "d3-array": "*",
-    "d3-scale": "*",
-    "d3-scale-chromatic": "*",
     "d3-format": "*",
     "d3-random": "*",
+    "d3-scale": "*",
+    "d3-scale-chromatic": "*",
+    "lit-element": "^2.1.0",
     "pwa-helpers": "^0.9.1"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "es-dev-server": "^1.18.3"
   }
 }
