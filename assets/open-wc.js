@@ -1,4 +1,4 @@
-import { html } from 'lit-element';
+import { html } from '/web_modules/lit-element.js';
 
 export const openWc = html`<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>

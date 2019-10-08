@@ -1,7 +1,7 @@
 // LitElement and html are the basic required imports
-import { LitElement, html, css } from 'lit-element';
-import {scaleOrdinal} from 'd3-scale';
-import {schemeCategory10 } from 'd3-scale-chromatic';
+import { LitElement, html, css } from '/web_modules/lit-element.js';
+import {scaleOrdinal} from '/web_modules/d3-scale.js';
+import {schemeCategory10 } from '/web_modules/d3-scale-chromatic.js';
 
 // Create a class definition for your component and extend the LitElement base class
 class DemoLegend extends LitElement {

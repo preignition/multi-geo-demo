@@ -1,7 +1,7 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from '/web_modules/lit-element.js';
 import {default as demoStyle } from '../demo-style.js';
-import {scaleOrdinal} from 'd3-scale';
-import {schemeCategory10 } from 'd3-scale-chromatic';
+import {scaleOrdinal} from '/web_modules/d3-scale.js';
+import {schemeCategory10 } from '/web_modules/d3-scale-chromatic.js';
 
 class Chart extends LitElement {
 

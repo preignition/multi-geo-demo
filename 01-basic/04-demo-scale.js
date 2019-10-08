@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from '/web_modules/lit-element.js';
 // import { randomUniform } from 'd3-random';
 
 class DemoScale extends LitElement {

@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from '/web_modules/lit-element.js';
 
 class Fetch extends LitElement {
   static get properties() {

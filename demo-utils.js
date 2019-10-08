@@ -1,5 +1,5 @@
-import { randomUniform } from 'd3-random';
-import { range } from 'd3-array';
+import { randomUniform } from '/web_modules/d3-random.js';
+import { range } from '/web_modules/d3-array.js';
 
 export const rnd = (keys, max) => {
   var r = randomUniform(max);

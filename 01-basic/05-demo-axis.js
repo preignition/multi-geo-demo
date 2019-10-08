@@ -1,6 +1,6 @@
 // LitElement and html are the basic required imports
-import { LitElement, html, css } from 'lit-element';
-import { d1 } from '../data.js'
+import { LitElement, html, css } from '/web_modules/lit-element.js';
+import { d1 } from '../data/data.js'
 
 // Create a class definition for your component and extend the LitElement base class
 class DemoAxis extends LitElement {

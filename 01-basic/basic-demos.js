@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit-element';
-import {  LitNotify,  LitSync} from '@morbidick/lit-element-notify';
+import { LitElement, html, css } from '/web_modules/lit-element.js';
+import {  LitNotify,  LitSync} from '/web_modules/@morbidick/lit-element-notify.js';
 // import '../../index.js';
 import './01-demo-format.js';
 import './02-demo-time-format.js';

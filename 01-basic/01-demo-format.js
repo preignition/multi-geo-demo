@@ -1,5 +1,5 @@
 // LitElement and html are the basic required imports
-import { LitElement, html, css} from 'lit-element';
+import { LitElement, html, css} from '/web_modules/lit-element.js';
 
 // Create a class definition for your component and extend the LitElement base class
 class DemoFormat extends LitElement {

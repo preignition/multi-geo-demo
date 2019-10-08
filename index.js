@@ -1,16 +1,17 @@
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from '/web_modules/lit-element.js';
 import './01-basic/basic-demos.js';
 import './02-charts/charts-demos.js';
 // import './03-advanced/advanced-demos.js';
 
-import '@preignition/multi-chart';
-import '@polymer/paper-card';
+import '/web_modules/@preignition/multi-chart.js';
 
-import '@vaadin/vaadin-tabs';
+import '/web_modules/@polymer/paper-card.js';
+import '/web_modules/@vaadin/vaadin-tabs.js';
+
 import { github } from './assets/github.js';
 import { openWc } from './assets/open-wc.js';
-import { Router } from '@vaadin/router';
-import { installMediaQueryWatcher } from 'pwa-helpers/media-query.js';
+import { Router } from '/web_modules/@vaadin/router.js';
+import { installMediaQueryWatcher } from '/web_modules/pwa-helpers/media-query.js';
 
 /**
  * This component combines all the examples to be displayed. See the basic/intermediate/advanced folders for the actual examples.
