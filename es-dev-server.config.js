@@ -3,7 +3,5 @@ module.exports = {
   watch: true,
   nodeResolve: true,
   preserveSymlinks: true,
-  // rootDir: '../',
-  // basePathr: '/demo',
-  // appIndex: 'demo/index.html'
+  appIndex: 'index.html'
 }

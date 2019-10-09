@@ -12,6 +12,7 @@
   "homepage": "https://github.com/preignition/multi-chart-demo",
   "scripts": {
     "start": "es-dev-server",
+    "prepublishOnly": "pika install --optimize",
     "postpublish": "git push && git push --tags"
   },
   "@pika/web": {

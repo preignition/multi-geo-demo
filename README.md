@@ -1,4 +1,10 @@
 # Multi Charts Demo
-Basic examples for working with `lit-html` and `LitElement`. 
+Basic examples for working with `multi-chart`  
 
-See the `./01-basic/01-basic-setup.js` to get started.
+## Installation
+
+with pnpm: 
+`pnpn install`
+
+with npm: 
+`npn install`
