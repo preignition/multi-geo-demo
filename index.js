@@ -3,7 +3,8 @@ import './01-basic/basic-demos.js';
 import './02-charts/charts-demos.js';
 // import './03-advanced/advanced-demos.js';
 
-import '/web_modules/@preignition/multi-chart.js';
+// import '/web_modules/@preignition/multi-chart.js';
+import '@preignition/multi-chart';
 
 import '/web_modules/@polymer/paper-card.js';
 import '/web_modules/@vaadin/vaadin-tabs.js';
