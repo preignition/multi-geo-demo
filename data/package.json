@@ -12,50 +12,25 @@
   "homepage": "https://github.com/preignition/multi-chart-demo",
   "scripts": {
     "start": "es-dev-server",
-    "prepublishOnly": "pika install --optimize",
     "postpublish": "git push && git push --tags"
   },
-  "@pika/web": {
-    "webDependencies": [
-      "@morbidick/lit-element-notify",
-      "@polymer/paper-card",
-      "@preignition/multi-chart",
-      "@preignition/multi-verse",
-      "@vaadin/router",
-      "@vaadin/vaadin-tabs",
-      "@webcomponents/webcomponentsjs",
-      "d3-array",
-      "d3-time-format",
-      "d3-format",
-      "d3-random",
-      "d3-scale",
-      "d3-scale-chromatic",
-      "lit-element",
-      "lit-html",
-      "pwa-helpers/media-query.js"
-    ]
-  },
   "dependencies": {
-    "@preignition/multi-chart": "file:../multi-chart",
-    "@preignition/multi-verse": "file:../multi-verse",
+    "@preignition/multi-chart": "^4.0.0-1",
     "@morbidick/lit-element-notify": "*",
     "@polymer/paper-card": "^3.0.1",
     "@vaadin/router": "^1.2.0",
     "@vaadin/vaadin-tabs": "^2.1.2",
     "@webcomponents/webcomponentsjs": "^2.2.7",
+    "lit-element": "^2.1.0",
+    "lit-html": "^1.0.0",
     "d3-array": "*",
-    "d3-format": "*",
-    "d3-time-format": "*",
-    "d3-random": "*",
     "d3-scale": "*",
     "d3-scale-chromatic": "*",
-    "lit-element": "^2.1.0",
-    "lit-html": "1",
+    "d3-format": "*",
+    "d3-random": "*",
     "pwa-helpers": "^0.9.1"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@pika/web": "^0.6.1",
     "es-dev-server": "^1.18.3"
   }
 }
