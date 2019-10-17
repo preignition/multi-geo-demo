@@ -1,13 +1,8 @@
 import { LitElement, html, css } from '/web_modules/lit-element.js';
 import {  LitNotify,  LitSync} from '/web_modules/@morbidick/lit-element-notify.js';
 
-import './01-demo-flight.js';
-// import './01-demo-format.js';
-// import './02-demo-time-format.js';
-// import './03-demo-fetch.js';
-// import './04-demo-scale.js';
-// import './05-demo-axis.js';
-// import './06-demo-legend.js';
+import './01-demo-feature.js';
+
 
 class BasicDemos extends LitSync(LitElement) {
   static get styles() {
@@ -69,8 +64,8 @@ class BasicDemos extends LitSync(LitElement) {
     return html`
       <paper-card>
         <div class="demo">
-          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=01-basic%2F01-basic-setup.js" target="_blank"><h2>d3-format</h2></a>
-          <demo-flight></demo-flight>
+          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=01-basic%2F01-basic-setup.js" target="_blank"><h2>Geo Feature</h2></a>
+          <demo-feature></demo-feature>
         </div>
       </paper-card>
     `;

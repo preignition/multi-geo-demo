@@ -1,9 +1,6 @@
 import { LitElement, html, css } from '/web_modules/lit-element.js';
-import './01-demo-pie.js';
-import './02-demo-line-path.js';
-import './03-demo-line.js';
-import './04-demo-bar.js';
-import './05-demo-bubble.js';
+import './01-demo-choropleth-compose.js';
+import './02-demo-choropleth-chart.js';
 
 class ChartDemos extends LitElement {
  
@@ -52,35 +49,23 @@ class ChartDemos extends LitElement {
     return html`
       <paper-card>
         <div class="demo">
-          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F01-first-updated.js" target="_blank"><h2>Pie Chart</h2></a>
-          <demo-pie></demo-pie>
-        </div>
-      </paper-card>
-      <!--paper-card>
-        <div class="demo">
-          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F02-updated.js" target="_blank"><h2>Line Chart</h2></a>
-          <demo-line-path></demo-line-path-->
+          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F01-first-updated.js" target="_blank"><h2>Choropleth - Compose</h2></a>
+          <div>
+            <p>This example composes appropriate web-composants. A simpler approach for rendering a choropleth chart is to use multi-chart-choropleth element, see below</p>
+            <demo-choropleth-compose></demo-choropleth-compose></div>
         </div>
       </paper-card>
       <paper-card>
         <div class="demo">
-          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F02-updated.js" target="_blank"><h2>Line Chart</h2></a>
-          <demo-line></demo-line>
+          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F01-first-updated.js" target="_blank"><h2>Choropleth - Chart</h2></a>
+          <div>
+            <p>Use of <code>multi-chart-choropleth</code></p>
+            <p>Example largely inspired from this <a target="_blank" href="http://bl.ocks.org/mbostock/4060606">this block</a>!</p>
+            <demo-choropleth-chart></demo-choropleth-chart>
+          </div>
         </div>
       </paper-card>
-      <paper-card>
-        <div class="demo">
-          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F02-updated.js" target="_blank"><h2>Bubble Chart</h2></a>
-          <demo-bubble></demo-bubble>
-        </div>
-      </paper-card>
-      <paper-card>
-        <div class="demo">
-          <a href="https://stackblitz.com/edit/open-wc-lit-demos?file=02-intermediate%2F02-updated.js" target="_blank"><h2>Bar Chart</h2></a>
-          <demo-bar></demo-bar>
-        </div>
-      </paper-card>
-
+      
     `;
   }
 }
