@@ -2,7 +2,7 @@
 import { LitElement, html, css } from '/web_modules/lit-element.js';
 // import * as format from '/web_modules/d3-time-format.js';
 // import { schemeCategory10 } from '/web_modules/d3-scale-chromatic.js';
-// import { scaleOrdinal } from '/web_modules/d3-scale.js';
+import { transition} from '/web_modules/d3-transition.js';
 
 // Create a class definition for your component and extend the LitElement base class
 class DemoFeature extends LitElement {
@@ -30,7 +30,7 @@ class DemoFeature extends LitElement {
             ></topojson-feature>
         <!-- configure transition for this chart  -->
         <d3-transition 
-            @transition-changed="${ e => this.transition = e.detail.value}" duration="500"
+            @transition-changed="${ e => this.transition = e.detail.value}" duration="700"
             ></d3-transition>
         <!-- a multi-container-geo will expose path and projection -->
         <multi-container-geo
@@ -93,6 +93,7 @@ class DemoFeature extends LitElement {
     this.projectionType = 'geoMercator'
     this.scale = 200;
     this.rotate = 0;
+    // this.transition = (transition) => transition.duration(1500)
 
   }
 }
