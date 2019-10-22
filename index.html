@@ -18,8 +18,11 @@
         margin: 24px auto;
       }
     </style>
-    <!-- <script type="module" src="./node_modules/@preignition/multi-chart/index.js"></script> -->
 
+    <!-- 
+        importmap allows to still load individual files instead of web_modules bundle.
+        This is usefull while developing individual libraries
+    -->
     <script type="importmap">
         {
         "imports": {
