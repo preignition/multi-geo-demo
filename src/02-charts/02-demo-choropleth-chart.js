@@ -25,7 +25,7 @@ class Chart extends LitElement {
             auto-fit
             min="0.02"
             max="0.18"
-            @color-scale-changed="${e => {this.colorScale = e.detail.value; console.info('color scale', e)}}"
+            @color-scale-changed="${e => {this.colorScale = e.detail.value}}"
               
             .data="${this.data}"
             
