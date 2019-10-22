@@ -1,6 +1,6 @@
 {
   "name": "@preignition/multi-geo-demo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "demo for multi-geo",
   "license": "MIT",
   "main": "index.js",
@@ -42,7 +42,7 @@
     "@morbidick/lit-element-notify": "*",
     "@polymer/paper-card": "^3.0.1",
     "@preignition/multi-chart": "^4",
-    "@preignition/multi-geo":"^4",
+    "@preignition/multi-geo": "^4",
     "@vaadin/router": "^1.2.0",
     "@vaadin/vaadin-tabs": "^2.1.2",
     "@webcomponents/webcomponentsjs": "^2.2.7",
